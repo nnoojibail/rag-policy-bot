@@ -43,4 +43,4 @@ uv run embed.py
 - Relevance: 73%
 - Appropriate refusal: 100%
 
-See the [full evaluation report]([your-google-doc-link](https://docs.google.com/document/d/1YyfptY0NUilQgmeM6737h6VOQ7rR66M8ccEhLJ4_xVE/edit?usp=sharing)) for failure analysis and learnings.
+See the [full evaluation report](https://docs.google.com/document/d/1YyfptY0NUilQgmeM6737h6VOQ7rR66M8ccEhLJ4_xVE/edit?usp=sharing) for failure analysis and learnings.
