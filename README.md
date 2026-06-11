@@ -23,6 +23,7 @@ Ask natural language questions against a corpus of enterprise policy documents a
 ## How to run
 
 ### 1. Install dependencies
+uv sync
 
 ### 2. Set up environment
 Create a `.env` file with:NEBIUS_API_KEY=
@@ -31,8 +32,10 @@ Create a `.env` file with:NEBIUS_API_KEY=
 Add PDFs to the `/docs` folder, then run:
 
 ### 4. Embed and store
+uv run ingest.py
 
 ### 5. Query
+uv run embed.py
 
 ## Evaluation
 15 questions tested across Easy, Medium, Edge Case, and Unanswerable categories.
